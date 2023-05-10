@@ -40,11 +40,6 @@ const questions = [
     },
     {
     type: "input",
-    name: "testing",
-    message: "What testing can be done and how to run tests?"
-    },
-    {
-    type: "input",
     name: "contact-me",
     message: "Input contact information."
     },
