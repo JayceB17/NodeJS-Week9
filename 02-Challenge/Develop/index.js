@@ -35,11 +35,6 @@ const questions = [
     },
     {
     type: "input",
-    name: "installation",
-    message: "Describe how to install project for use.",
-    },
-    {
-    type: "input",
     name: "usage",
     message: "Describe the usage of this project."
     },
