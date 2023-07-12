@@ -1,4 +1,5 @@
-// TODO: Include packages needed for this application
+
+ // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
@@ -35,8 +36,18 @@ const questions = [
     },
     {
     type: "input",
+    name: "installation",
+    message: "Describe how to install project for use.",
+    },
+    {
+    type: "input",
     name: "usage",
     message: "Describe the usage of this project."
+    },
+    {
+    type: "input",
+    name: "testing",
+    message: "What testing can be done and how to run tests?"
     },
     {
     type: "input",
